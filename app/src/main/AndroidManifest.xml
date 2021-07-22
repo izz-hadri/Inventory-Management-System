@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.origin_inventorymanagementsystem">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Origin_InventoryManagementSystem">
+        <activity android:name=".StudentProfileActivity"></activity>
+        <activity android:name=".StaffSignInActivity" />
+        <activity android:name=".ReturnCheckCodeItemActivity" />
+        <activity android:name=".ReturnActivity" />
+        <activity android:name=".ItemDetailActivity" />
+        <activity android:name=".GenerateItemCodeActivity" />
+        <activity android:name=".DashboardStaffActivity" />
+        <activity android:name=".DashboardReturnItemActivity" />
+        <activity android:name=".AddStudentActivity" />
+        <activity android:name=".AddStaffActivity" />
+        <activity android:name=".AddItemActivity" />
+        <activity android:name=".BorrowActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

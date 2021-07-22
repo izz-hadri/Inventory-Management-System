@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#eee"
+        android:name="Rectangle 2 copy 12"
+        android:pathData="m35 28v7h-7v-7zm45 0v7h-7v-7zm-58 -6v19h19v-19zm34 11v8h6v-8zm11 -11v19h19v-19zm-64 -19v39h7v-32h32v-7zm63 0v7h32v32h7v-39zm-20 19v24h-13v6h19v-24h10v-6zm32 24v6h8v-6zm-56 0v16h19v-6h-13v-10zm34 0v11h-10v16h10v-6h-4v-4h10v-1v-10h5v10h19v-6h-13v-10zm-21 27v7h-7v-7zm-13 -6v19h19v-19zm40 0v13h-16v6h22v-19zm11 0v19h13v-6h-7v-7h7v-6zm-70 -1v39h39v-7h-32v-32zm95 0v32h-32v7h39v-39z" />
+
+</vector>
